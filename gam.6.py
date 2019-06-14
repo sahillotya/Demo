@@ -82,7 +82,6 @@ def game_loop():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_LEFT:
                     x_change = -5
